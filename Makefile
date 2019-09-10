@@ -21,7 +21,7 @@ MAKEFILE := Makefile
 
 BUILD_SPEC := default
 SRC_DIR := .
-PRJ_ROOT_DIR := C:/Vipul/ITTL/Workspace/projectP2
+PRJ_ROOT_DIR := C:/Vipul/ITTL/Workspace/Wp
 WS_ROOT_DIR := C:/Vipul/ITTL/Workspace
 
 ALL_BUILD_SPECS := default

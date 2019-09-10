@@ -2,7 +2,7 @@
 #
 
 
-# GENERATED: Wed Jun 26 12:29:21 +0530 2019
+# GENERATED: Sat Jun 29 12:19:42 +0530 2019
 # DO NOT EDIT - file is regenerated whenever the project changes
 
 
@@ -13,10 +13,10 @@ PRJ_DIR        = ..
 else
 PRJ_DIR        = .
 endif
-PRJ_FILE       = projectP2.wpj
-PRJ_FULL_PATH  = C:/Vipul/ITTL/Workspace/projectP2
+PRJ_FILE       = Wp.wpj
+PRJ_FULL_PATH  = C:/Vipul/ITTL/Workspace/Wp
 PRJ_TYPE       = vxWorks
-PRJ_OBJS       = sysALib.o sysLib.o usrAppInit.o usrRtpAppInit.o prjConfig.o linkSyms.o mutex.o
+PRJ_OBJS       = sysALib.o sysLib.o usrAppInit.o usrRtpAppInit.o prjConfig.o linkSyms.o filterImpTask.o filterConfigg.o filterInternalCal.o
 PRJ_MAKEFILE   = $(PRJ_DIR)/Makefile.mk
 BOOT_OBJS      =  $(BOOT_EXTRA)
 BUILD_SPEC     = default
@@ -499,9 +499,17 @@ usrRtpAppInit.o:  $(PRJ_DIR)/usrRtpAppInit.c
 	$(RM) usrRtpAppInit.o
 	$(CC) $(CFLAGS) $(CFLAGS_OPTIONS_ALL) -c $(PRJ_DIR)/usrRtpAppInit.c
 
-mutex.o:  $(PRJ_DIR)/mutex.c 
-	$(RM) mutex.o
-	$(CC) $(CFLAGS) $(CFLAGS_OPTIONS_ALL) -c $(PRJ_DIR)/mutex.c
+filterImpTask.o:  $(PRJ_DIR)/filterImpTask.c 
+	$(RM) filterImpTask.o
+	$(CC) $(CFLAGS) $(CFLAGS_OPTIONS_ALL) -c $(PRJ_DIR)/filterImpTask.c
+
+filterConfigg.o:  $(PRJ_DIR)/filterConfigg.c 
+	$(RM) filterConfigg.o
+	$(CC) $(CFLAGS) $(CFLAGS_OPTIONS_ALL) -c $(PRJ_DIR)/filterConfigg.c
+
+filterInternalCal.o:  $(PRJ_DIR)/filterInternalCal.c 
+	$(RM) filterInternalCal.o
+	$(CC) $(CFLAGS) $(CFLAGS_OPTIONS_ALL) -c $(PRJ_DIR)/filterInternalCal.c
 endif
 
 

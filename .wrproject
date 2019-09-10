@@ -34,6 +34,7 @@
             </listAttribute>
             <stringAttribute key="BLD::Tgt|Target|vxWorks|ToolName" value="Kernel Build Rule"/>
             <intAttribute key="BuildSupportEnabled" value="1"/>
+            <booleanAttribute key="BuildTargetCentric" value="false"/>
         </mapAttribute>
     </attributes>
 </wrxml>
