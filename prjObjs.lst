@@ -4,4 +4,6 @@ usrAppInit.o
 usrRtpAppInit.o
 prjConfig.o
 linkSyms.o
-mutex.o
+filterImpTask.o
+filterConfigg.o
+filterInternalCal.o
